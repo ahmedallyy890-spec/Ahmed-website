@@ -1,0 +1,155 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(30, 30, 30, 0.658);
+    background-image: url(macos-monterey-wwdc-21-stock-dark-mode-5k-3840x2160-5585.jpg);
+    background-size: fit-content;
+}
+header {
+    display: inline-block;
+    justify-content: center;
+    width: 150px;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    border-radius: 50px;
+    border: 0.5px solid rgb(52, 51, 51);
+    letter-spacing: 3px;
+    font-weight: 900;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.594);
+}
+footer {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 96%;
+    left: 0;
+    z-index: 1000;
+}
+footer nav ul {
+    display: flex;
+    gap: 2em;
+    list-style-type: none;
+}
+footer nav ul a {
+    display: inline-block;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    transition: 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.53);
+}
+footer nav ul a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: rotate(3deg) translateY(-4px);
+}
+footer nav ul .selector {
+    background-color: white;
+    color: black;
+    transition: 0.5s ease;
+    border: 1px solid slategray;
+}
+footer nav ul .selector:hover {
+    color: rgb(255, 255, 255);
+    border: none;
+}
+.main {
+    margin-top: 150px;
+    border-radius: 20px;
+    border: 0.1px solid rgb(137, 137, 137);
+    padding: 70px;
+    margin-bottom: 150px;
+    background-color: rgba(0, 0, 0, 0.185);
+}
+.main h1 {
+    color: white;
+}
+.main a {
+    display: inline-block;
+    margin-right: 15px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 15px;
+    padding: 15px;
+    transition: 0.6s ease;
+    margin-top: 15px;
+}
+.main a:hover {
+    background-color: rgba(0, 0, 0, 0.383);
+    color: white;
+    border-radius: 7px;
+    transform: rotate(8deg) scale(1.1);
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+.main2 {
+    margin-top: 150px;
+    
+}
+.main2 h1 {
+    color: white;
+}
+.main2 .box {
+    display: inline-block;
+    margin-right: 15px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+    border-radius: 15px;
+    padding: 15px;
+    transition: 0.6s ease;
+    margin-top: 15px;
+    width: 150px;
+    height: 130px;
+}
+.main2 .box a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.main2 .box:hover {
+    border-radius: 7px;
+    transform: rotate(8deg) scale(1.1);
+    background-color: rgb(217, 214, 214);
+}
+@media (max-width: 400px) {
+    footer nav ul {
+        gap: 2px;
+    }
+}
+iframe {
+    border-radius: 15px;
+    transition: 0.5s ease;
+}
+iframe:hover {
+    transform: translateY(-10px) rotate(-2deg) scale(1.05);
+    box-shadow: 0px 4px 10px black;
+}
+.main2 .box2 {
+    display: inline-block;
+    margin-right: 15px;
+    text-decoration: none;
+    background-color: rgb(25, 25, 25);
+    font-weight: 600;
+    border-radius: 15px;
+    padding: 15px;
+    transition: 0.6s ease;
+    margin-top: 15px;
+    width: 150px;
+    height: 130px;
+}
+.main2 .box2 a {
+    color: white;
+    text-decoration: none;
+}
+.main2 .box2:hover {
+    background-color: rgb(36, 36, 36);
+    border-radius: 40px;
+    transform: translateY(-20px);
+}
